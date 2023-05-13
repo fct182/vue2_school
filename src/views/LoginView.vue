@@ -144,10 +144,11 @@ export default {
     top: 0;
     left: 0;
     background-image: url('../assets/img/login-bg.jpg');
-    transition: all 0.5s;
+    transition: all 0.625s;
+    background-size: cover
   }
   .login-bg-blur {
-    background-image: url('../assets/img/login-bg-blur.jpg');
+    filter: blur(4px);
   }
   .login-contain {
     position: relative;
